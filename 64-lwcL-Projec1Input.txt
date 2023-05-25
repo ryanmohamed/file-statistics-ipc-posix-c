@@ -1,0 +1,2 @@
+Buffer size should be 128-256! (inclusive)
+Program ending...try again.

@@ -1,0 +1,46 @@
+
+OPTIONS: -lwL
+BUFFER SIZE: 256
+NUMFILES: 3
+USING FILE(S): testfile1.txt, testfile2.txt, testfile3.txt
+
+Parent: Before opening mq...
+Parent: Message queue has been opened...
+
+Parent: Message queue flags: 0
+Parent: Maximum # of messages on queue: 10
+Parent: Maximum message size: 256
+Parent: # of messages currently on queue: 0
+
+Parent: OS name is:	Linux
+Parent: OS release is:	4.18.0-408.el8.x86_64
+Parent: OS version is:	#1 SMP Mon Jul 18 17:42:52 UTC 2022
+
+Parent: Process ID is:	3377433
+Child: Hello there!
+Parent: Parent Process ID is:	3361869
+Parent: Current working directory:	/home/fa22/340/mory1523/Project1
+Parent: Hostname is:	Child: Process ID is:	3377434venus.cs.qc.cuny.edu
+
+
+Child: Parent Process ID is:	3377433
+Child: Current working directory:	/home/fa22/340/mory1523/Project1
+Child: Hostname is:	venus.cs.qc.cuny.edu
+
+Child: Formatted Message *** testfile1.txt:	 newline count:	 3 ***
+Child: Formatted Message *** testfile1.txt:	 word count:	 20 ***
+Child: Formatted Message *** testfile1.txt:	 maximum line length:	 80 ***
+
+
+Child: Formatted Message *** testfile2.txt:	 newline count:	 6 ***
+Child: Formatted Message *** testfile2.txt:	 word count:	 35 ***
+Child: Formatted Message *** testfile2.txt:	 maximum line length:	 85 ***
+
+
+Child: Formatted Message *** testfile3.txt:	 newline count:	 7 ***
+Child: Formatted Message *** testfile3.txt:	 word count:	 20 ***
+Child: Formatted Message *** testfile3.txt:	 maximum line length:	 49 ***
+
+
+Child: Terminating...
+Parent: Terminating...

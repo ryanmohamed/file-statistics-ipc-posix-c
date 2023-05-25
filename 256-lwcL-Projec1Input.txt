@@ -1,0 +1,37 @@
+
+OPTIONS: -lwcL
+BUFFER SIZE: 256
+NUMFILES: 1
+USING FILE(S): Project1Input.txt
+
+Parent: Before opening mq...
+Parent: Message queue has been opened...
+
+Parent: Message queue flags: 0
+Parent: Maximum # of messages on queue: 10
+Parent: Maximum message size: 256
+Parent: # of messages currently on queue: 0
+
+Parent: OS name is:	Linux
+Parent: OS release is:	4.18.0-408.el8.x86_64
+Parent: OS version is:	#1 SMP Mon Jul 18 17:42:52 UTC 2022
+
+Parent: Process ID is:	3377072
+Parent: Parent Process ID is:	3361869
+Child: Hello there!
+Parent: Current working directory:	/home/fa22/340/mory1523/Project1
+Parent: Hostname is:	venus.cs.qc.cuny.edu
+
+Child: Process ID is:	3377073
+Child: Parent Process ID is:	3377072
+Child: Current working directory:	/home/fa22/340/mory1523/Project1
+Child: Hostname is:	venus.cs.qc.cuny.edu
+
+Child: Formatted Message *** Project1Input.txt:	 newline count:	 18 ***
+Child: Formatted Message *** Project1Input.txt:	 word count:	 239 ***
+Child: Formatted Message *** Project1Input.txt:	 char count:	 1592 ***
+Child: Formatted Message *** Project1Input.txt:	 maximum line length:	 315 ***
+
+
+Child: Terminating...
+Parent: Terminating...

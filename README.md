@@ -1,5 +1,2 @@
-# linux-ipc-posix-c
-# file-statistics-ipc-posix-c
-# file-statistics-ipc-posix-c
-# file-statistics-ipc-posix-c
-# file-statistics-ipc-posix-c
+# File Statistics with Interprocess Communication in C
+
